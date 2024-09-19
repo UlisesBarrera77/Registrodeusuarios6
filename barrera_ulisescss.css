@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4;
+    margin: 0;
+    padding: 0;
+}
+headre{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+    text-aling: center;
+}
+label{
+    display: block;
+    margin: 10xp 0 5px;
+}
+input{
+    padding: 5px;
+    width: 200px;
+}
+button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    backgound-color: #333;
+    color:aquamarine
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: blue;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color:beige;
+    position: fixed;
+    width: 100%;
+}

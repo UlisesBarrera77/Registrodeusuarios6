@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+        <title>Registros de Usuarios</title>
+        <link rel="stylesheet" href="styles1.css">
+    </head>
+    <body>
+        <header>
+            <hi>Regsitros de usuarios</hi>
+        </header>
+
+        <main>
+            <section>
+                <h2>Completa el formulario</h2>
+                <from action="guardar_usuario.php" method="POST">
+                    <label for="nombre"> Nombre:</label>
+                    <input type="text" id="nombre" name="nobre" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <button type="submit">Registrarse</button>
+                </from>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Mi primera base de datos</p>
+        </footer>
+
+    </body>
+</html>
